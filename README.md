@@ -1,2 +1,7 @@
 # CW2-Terrain-Generation
-CW 2 Implementation 
+Procedural generation is the process by which a particular function is computed at run time. The technique has found its use in a variety of fields, including, but not limited to, movies, music, games, and so on. In particular, our interest is in the latter of said fields: games. 
+Prior to all these monumental improvements in hardware, computers did not have the resources to support the dreams and visions of game developers. Game developers, not unperturbed by such limitations, resorted to craftier methods, namely procedural generation. Making use of ASCII characters or regular tiling-based systems, and seeding the random values, an illusion of premade worlds and levels was created. Examples include Maze Craze (1978), the Sentinel (1986), and so on.
+Procedural generation has proven to be such a potent tool that even with most of the hardware limitations of yore lifted it is still used extensively, perhaps even more so. A whole genre of video games, roguelikes they are called, has seen much success in recent years. These games rely almost entirely on procedural generation for their level generation, enemy placement, collectible placement, and so on. 
+
+Our particular interest is in two of the prior mentioned algorithms: Midpoint displacement and Fast Fourier Transform Generation.
+Midpoint displacement is a simple and fast way to generate a decent-looking terrain. It generally consists of five steps. The first of which compromises the simple task of creating a grid. Care must be taken into ensuring that the created grid equal number of rows and columns, both of which should preferably be odd numbers. Even numbers seem to dislike having a midpoint around which values are equally distributed.
